@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", system-ui, sans-serif;
+  background: #fff8ec;
+  color: #243144;
+  -webkit-font-smoothing: antialiased;
+}
+
+video::-internal-media-controls-download-button {
+  display: none;
+}
+video::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-3xl px-6 py-3 font-bold text-base shadow-kid transition active:translate-y-1 active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn bg-mint-500 text-white hover:bg-mint-700;
+  }
+  .btn-sun {
+    @apply btn bg-sun-300 text-ink-800 hover:bg-sun-500;
+  }
+  .btn-sky {
+    @apply btn bg-sky-300 text-ink-800 hover:bg-sky-500 hover:text-white;
+  }
+  .btn-ghost {
+    @apply btn bg-white text-ink-800 border-2 border-ink-800/10 hover:border-ink-800/30;
+  }
+  .input {
+    @apply w-full rounded-2xl border-2 border-ink-800/10 bg-white px-4 py-3 text-base outline-none focus:border-mint-500 transition;
+  }
+  .card {
+    @apply rounded-4xl bg-white shadow-kid p-6;
+  }
+}

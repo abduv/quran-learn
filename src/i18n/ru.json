@@ -1,0 +1,92 @@
+{
+  "app": {
+    "name": "Мир Корана",
+    "tagline": "Уроки Корана для детей"
+  },
+  "nav": {
+    "dashboard": "Главная",
+    "lessons": "Уроки",
+    "signOut": "Выйти"
+  },
+  "auth": {
+    "loginTitle": "Привет! С возвращением",
+    "signupTitle": "Присоединяйся к нам!",
+    "email": "Электронная почта",
+    "password": "Пароль",
+    "login": "Войти",
+    "signup": "Регистрация",
+    "google": "Войти через Google",
+    "switchToSignup": "Нет аккаунта? Зарегистрируйся",
+    "switchToLogin": "Уже есть аккаунт? Войти",
+    "errorGeneric": "Произошла ошибка. Попробуй ещё раз."
+  },
+  "dashboard": {
+    "hi": "Привет, {{name}}!",
+    "yourProgress": "Твой прогресс",
+    "lessonsCompleted": "{{done}} / {{total}} уроков",
+    "continue": "Продолжить",
+    "start": "Начать",
+    "noLessons": "Уроков пока нет. Скоро будут добавлены!",
+    "completed": "Завершён",
+    "score": "Балл: {{score}}/{{total}}"
+  },
+  "lesson": {
+    "watch": "Смотри видео",
+    "description": "Описание",
+    "startQuiz": "Начать задание",
+    "question": "Вопрос {{n}}/{{total}}",
+    "next": "Дальше",
+    "finish": "Завершить",
+    "noQuiz": "Для этого урока пока нет задания.",
+    "back": "Назад"
+  },
+  "results": {
+    "title": "Отличная работа!",
+    "scored": "Ты набрал {{score}} из {{total}}",
+    "percent": "{{p}}%",
+    "again": "Посмотреть снова",
+    "home": "На главную"
+  },
+  "admin": {
+    "title": "Админ панель",
+    "lessons": "Уроки",
+    "stats": "Статистика",
+    "newLesson": "Новый урок",
+    "edit": "Изменить",
+    "delete": "Удалить",
+    "titleKk": "Название (казахский)",
+    "titleRu": "Название (русский)",
+    "descKk": "Описание (казахский)",
+    "descRu": "Описание (русский)",
+    "videoSection": "Видео",
+    "videoYoutube": "Ссылка YouTube",
+    "videoUpload": "Загрузить файл",
+    "save": "Сохранить",
+    "quiz": "Задание",
+    "manualMode": "Вручную",
+    "agenticMode": "Через AI",
+    "addQuestion": "Добавить вопрос",
+    "questionText": "Текст вопроса",
+    "option": "Вариант {{n}}",
+    "correct": "Правильный ответ",
+    "generate": "Сгенерировать",
+    "generating": "Генерация...",
+    "openaiKey": "API ключ OpenAI",
+    "openaiKeyHint": "Ключ хранится только в браузере. Не отправляется на сервер.",
+    "saveKey": "Сохранить",
+    "statsHeader": "Статистика учеников",
+    "user": "Ученик",
+    "attempts": "Попытки",
+    "avgScore": "Средний балл",
+    "completion": "Прогресс",
+    "noUsers": "Пока нет учеников.",
+    "loginPrompt": "Введите логин/пароль администратора"
+  },
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "yes": "Да",
+    "no": "Нет",
+    "cancel": "Отмена"
+  }
+}

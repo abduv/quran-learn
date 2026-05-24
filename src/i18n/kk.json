@@ -1,0 +1,92 @@
+{
+  "app": {
+    "name": "Құран Әлемі",
+    "tagline": "Балаларға арналған Құран сабақтары"
+  },
+  "nav": {
+    "dashboard": "Басты бет",
+    "lessons": "Сабақтар",
+    "signOut": "Шығу"
+  },
+  "auth": {
+    "loginTitle": "Сәлем! Қайта оралыңыз",
+    "signupTitle": "Бізге қосыл!",
+    "email": "Электрондық пошта",
+    "password": "Құпиясөз",
+    "login": "Кіру",
+    "signup": "Тіркелу",
+    "google": "Google арқылы кіру",
+    "switchToSignup": "Жаңа қолданушысыз ба? Тіркеліңіз",
+    "switchToLogin": "Аккаунтыңыз бар ма? Кіріңіз",
+    "errorGeneric": "Қате орын алды. Қайталап көріңіз."
+  },
+  "dashboard": {
+    "hi": "Сәлем, {{name}}!",
+    "yourProgress": "Сенің жетістігің",
+    "lessonsCompleted": "{{done}} / {{total}} сабақ",
+    "continue": "Жалғастыру",
+    "start": "Бастау",
+    "noLessons": "Әзірге сабақтар жоқ. Тез арада қосылады!",
+    "completed": "Аяқталды",
+    "score": "Балл: {{score}}/{{total}}"
+  },
+  "lesson": {
+    "watch": "Бейнені қара",
+    "description": "Сипаттама",
+    "startQuiz": "Тапсырманы баста",
+    "question": "Сұрақ {{n}}/{{total}}",
+    "next": "Келесі",
+    "finish": "Аяқтау",
+    "noQuiz": "Бұл сабақта әзірге тапсырма жоқ.",
+    "back": "Артқа"
+  },
+  "results": {
+    "title": "Тамаша жұмыс!",
+    "scored": "Сен {{score}} ұпайдан {{total}} ұпай жинадың",
+    "percent": "{{p}}%",
+    "again": "Қайта көру",
+    "home": "Басты бетке"
+  },
+  "admin": {
+    "title": "Әкімші панелі",
+    "lessons": "Сабақтар",
+    "stats": "Статистика",
+    "newLesson": "Жаңа сабақ",
+    "edit": "Өңдеу",
+    "delete": "Жою",
+    "titleKk": "Атауы (қазақша)",
+    "titleRu": "Атауы (орысша)",
+    "descKk": "Сипаттамасы (қазақша)",
+    "descRu": "Сипаттамасы (орысша)",
+    "videoSection": "Бейне",
+    "videoYoutube": "YouTube сілтемесі",
+    "videoUpload": "Файл жүктеу",
+    "save": "Сақтау",
+    "quiz": "Тапсырма",
+    "manualMode": "Қолмен",
+    "agenticMode": "AI арқылы",
+    "addQuestion": "Сұрақ қосу",
+    "questionText": "Сұрақ мәтіні",
+    "option": "Нұсқа {{n}}",
+    "correct": "Дұрыс жауап",
+    "generate": "Жасау",
+    "generating": "Жасалуда...",
+    "openaiKey": "OpenAI API кілті",
+    "openaiKeyHint": "Кілт тек браузерде сақталады. Серверге жіберілмейді.",
+    "saveKey": "Сақтау",
+    "statsHeader": "Оқушылар статистикасы",
+    "user": "Оқушы",
+    "attempts": "Талпыныстар",
+    "avgScore": "Орташа балл",
+    "completion": "Прогресс",
+    "noUsers": "Әзірге оқушы жоқ.",
+    "loginPrompt": "Әкімші логин/құпиясөзін енгізіңіз"
+  },
+  "common": {
+    "loading": "Жүктелуде...",
+    "error": "Қате",
+    "yes": "Иә",
+    "no": "Жоқ",
+    "cancel": "Болдырмау"
+  }
+}
